@@ -6,7 +6,7 @@
 
 A research framework for analyzing how Large Language Models generate scientific hypotheses from research paper abstracts through multi-method attribution analysis.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Installation](#installation)
@@ -19,11 +19,11 @@ A research framework for analyzing how Large Language Models generate scientific
 - [License](#license)
 - [Correspondence](#correspondence)
 
-## 🔬 Overview
+## Overview
 
 ABSTRA aims to systematise our understanding of how LLMs process scientific abstracts and generate hypotheses, with particular focus on identifying implausible or extreme hypotheses that might impede automated scientific discovery processes. The ABSTRA framework transforms our empirical findings into a practical tool that addresses a critical gap in scientific AI systems: distinguishing promising hypotheses from implausible ones. By operationalising our core finding that LLMs prioritise empirical information over interpretive synthesis, it enables the generation of empirically-grounded hypotheses while filtering out those that extrapolate beyond available evidence.
 
-## 📦 Installation
+## Installation
 
 ### Setup
 
@@ -43,7 +43,7 @@ pip install -e .
 python -c "import nltk; nltk.download('punkt')"
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Test with Sample Data
 
@@ -65,7 +65,7 @@ cp your_abstracts.csv data/raw/
 python scripts/run_abstra.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 abstra/
@@ -104,7 +104,7 @@ abstra/
     └── __init__.py
 ```
 
-## 🔄 Pipeline Architecture
+## Pipeline Architecture
 
 ### Phase 1: Literature Processing
 ```
@@ -151,7 +151,7 @@ All results compiled into:
 - Logs (abstra_log.txt)
 ```
 
-## 📊 Input/Output Specifications
+## Input/Output Specifications
 
 ### Input Format
 
@@ -192,7 +192,7 @@ title,abstract,hypothesis_id,hypothesis,model_self_evaluated_score,model_respons
 2. **`complete_results.json`** - Complete pipeline output with nested structure
 3. **`abstra_log.txt`** - Execution logs with timestamps
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `config.yaml` to customize:
 
@@ -223,7 +223,7 @@ evaluation:
   max_length: 1024         # Max tokens for evaluation
 ```
 
-## 📝 Citation
+## Citation
 
 If you use ABSTRA in your research, please cite:
 
@@ -237,7 +237,7 @@ If you use ABSTRA in your research, please cite:
 }
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -271,7 +271,7 @@ SOFTWARE.
 - [Captum](https://captum.ai/) for attribution methods
 - [TinyLlama Team](https://github.com/jzhang38/TinyLlama) for the base model
 
-## 📧 Correspondence
+## Correspondence
 
 - **Point of Contact:**: Adnan Mahmud
 - **Email**: mam255@cantab.ac.uk
