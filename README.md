@@ -21,14 +21,7 @@ A research framework for analyzing how Large Language Models generate scientific
 
 ## 🔬 Overview
 
-ABSTRA (Abstract Section-Targeted Reasoning Assessment) is an automated pipeline that:
-
-1. **Segments** scientific abstracts into five structural sections (Background, Objective, Methods, Results, Conclusion)
-2. **Generates** multiple hypotheses using LLMs
-3. **Attributes** hypothesis generation to specific abstract sections using Feature Ablation and Shapley Values
-4. **Evaluates** hypothesis quality through self-assessment
-
-This framework enables researchers to understand which parts of scientific abstracts most influence LLM reasoning when generating research hypotheses.
+ABSTRA aims to systematise our understanding of how LLMs process scientific abstracts and generate hypotheses, with particular focus on identifying implausible or extreme hypotheses that might impede automated scientific discovery processes. The ABSTRA framework transforms our empirical findings into a practical tool that addresses a critical gap in scientific AI systems: distinguishing promising hypotheses from implausible ones. By operationalising our core finding that LLMs prioritise empirical information over interpretive synthesis, it enables the generation of empirically-grounded hypotheses while filtering out those that extrapolate beyond available evidence.
 
 ## 📦 Installation
 
