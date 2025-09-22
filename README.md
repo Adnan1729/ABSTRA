@@ -9,7 +9,6 @@ A research framework for analyzing how Large Language Models generate scientific
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Project Structure](#project-structure)
@@ -30,25 +29,6 @@ ABSTRA (Abstract Section-Targeted Reasoning Assessment) is an automated pipeline
 4. **Evaluates** hypothesis quality through self-assessment
 
 This framework enables researchers to understand which parts of scientific abstracts most influence LLM reasoning when generating research hypotheses.
-
-## 🛠 Tech Stack
-
-### Core Dependencies
-- **PyTorch** (≥2.0.0) - Deep learning framework
-- **Transformers** (≥4.30.0) - Hugging Face model library
-- **Captum** (0.7.0) - Model interpretability and attribution
-
-### Model
-- **TinyLlama-1.1B-Chat-v1.0** - Efficient instruction-tuned LLM
-
-### Data Processing
-- **Pandas** (≥1.5.0) - Data manipulation
-- **NLTK** (≥3.8.0) - Natural language processing
-- **NumPy** (≥1.24.0) - Numerical computing
-
-### Utilities
-- **PyYAML** (≥6.0) - Configuration management
-- **tqdm** (≥4.65.0) - Progress bars
 
 ## 📦 Installation
 
@@ -90,25 +70,6 @@ cp your_abstracts.csv data/raw/
 
 # Run pipeline
 python scripts/run_abstra.py
-```
-
-### 3. Programmatic Usage
-
-```python
-from abstra import ABSTRAPipeline, Config
-
-# Load configuration
-config = Config.from_yaml('config.yaml')
-
-# Customize if needed
-config.input_csv = 'path/to/your/data.csv'
-config.num_hypotheses = 5
-
-# Run pipeline
-pipeline = ABSTRAPipeline(config)
-results_df = pipeline.run()
-
-print(results_df.head())
 ```
 
 ## 📁 Project Structure
