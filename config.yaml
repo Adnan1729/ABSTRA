@@ -5,7 +5,7 @@ model:
   device: "cuda"
 
 paths:
-  input_csv: "./data/sample/sample_data_2.csv" # Please test the sample one with only 2 abstract before scaling up. 
+  input_csv: "./data/sample/sample_data_2.csv" # Please test the sample with only two abstracts before scaling up.
   output_dir: "./data/processed"
 
 processing:
