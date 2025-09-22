@@ -269,24 +269,6 @@ evaluation:
   max_length: 1024         # Max tokens for evaluation
 ```
 
-## 💡 Usage Examples
-
-### Command Line Interface
-
-```bash
-# Basic usage
-python scripts/run_abstra.py
-
-# Specify config file
-python scripts/run_abstra.py --config my_config.yaml
-
-# Override paths
-python scripts/run_abstra.py --input data/raw/my_data.csv --output results/
-
-# Combine options
-python scripts/run_abstra.py --config config.yaml --output experiments/run_001/
-```
-
 ## 📝 Citation
 
 If you use ABSTRA in your research, please cite:
