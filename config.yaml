@@ -1,0 +1,25 @@
+# ABSTRA Configuration
+model:
+  name: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+  dtype: "float16"
+  device: "cuda"
+
+paths:
+  input_csv: "./data/sample/sample_data_2.csv" # Please test the sample one with only 2 abstract before scaling up. 
+  output_dir: "./data/processed"
+
+processing:
+  num_hypotheses: 3
+  batch_size: 10
+  reload_model_every: 20
+
+generation:
+  max_length: 3000
+  temperature: 0.7
+  repetition_penalty: 1.2
+
+attribution:
+  shapley_samples: 10
+  
+evaluation:
+  max_length: 1024
