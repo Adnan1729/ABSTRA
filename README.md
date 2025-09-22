@@ -16,9 +16,9 @@ A research framework for analyzing how Large Language Models generate scientific
 - [Pipeline Architecture](#pipeline-architecture)
 - [Input/Output Specifications](#inputoutput-specifications)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
 - [Citation](#citation)
 - [License](#license)
+- [Correspondence](#correspondence)
 
 ## 🔬 Overview
 
@@ -51,11 +51,6 @@ This framework enables researchers to understand which parts of scientific abstr
 - **tqdm** (≥4.65.0) - Progress bars
 
 ## 📦 Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- CUDA-compatible GPU (recommended)
-- 8GB+ GPU memory
 
 ### Setup
 
@@ -292,17 +287,6 @@ python scripts/run_abstra.py --input data/raw/my_data.csv --output results/
 python scripts/run_abstra.py --config config.yaml --output experiments/run_001/
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-
 ## 📝 Citation
 
 If you use ABSTRA in your research, please cite:
@@ -313,7 +297,6 @@ If you use ABSTRA in your research, please cite:
   author       = {Adnan Mahmud and Abbi Abdel Rehim and Gabriel Reader and Ross King},
   year         = {2025},
   howpublished = {Preprint},
-  note         = {University of Edinburgh and University of Cambridge},
   url          = {https://github.com/Adnan1729/abstra}
 }
 ```
@@ -352,10 +335,10 @@ SOFTWARE.
 - [Captum](https://captum.ai/) for attribution methods
 - [TinyLlama Team](https://github.com/jzhang38/TinyLlama) for the base model
 
-## 📧 Contact
+## 📧 Correspondence
 
-- **Author**: Adnan Mahmud
-- **Email**: s2887048@ed.ac.uk
+- **Point of Contact:**: Adnan Mahmud, 
+- **Email**: mam255@cantab.ac.uk
 - **Project Link**: [https://github.com/Adnan1729/abstra](https://github.com/Adnan1729/abstra)
 
 ---
