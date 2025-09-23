@@ -45,8 +45,6 @@ python -c "import nltk; nltk.download('punkt')"
 
 ## Quick Start
 
-### 1. Test with Sample Data
-
 ```bash
 python scripts/run_abstra.py --input data/sample/sample_data_2.csv --output data/processed/
 ```
