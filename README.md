@@ -236,7 +236,7 @@ You are free to use, modify, and distribute this work, provided you comply with 
 
 ## Correspondence
 
-- **Point of Contact:**: Adnan Mahmud
+- **Point of Contact:** Adnan Mahmud
 - **Email**: mam255@cantab.ac.uk
 - **Project Link**: [https://github.com/Adnan1729/abstra](https://github.com/Adnan1729/abstra)
 
