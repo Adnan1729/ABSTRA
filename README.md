@@ -225,7 +225,7 @@ If you use ABSTRA in your research, please cite:
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This project is licensed under the [Apache License 2.0](LICENSE).  
+This project is licensed under the Apache License 2.0.  
 You are free to use, modify, and distribute this work, provided you comply with the terms of the license.
 
 ## Acknowledgments
