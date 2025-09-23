@@ -242,4 +242,4 @@ You are free to use, modify, and distribute this work, provided you comply with 
 
 ---
 
-**Note**: This research tool is a proof-of-concept currently undergoing validation and refinement.
+**Nota Bene**: This research tool is a proof-of-concept currently undergoing validation and refinement.
