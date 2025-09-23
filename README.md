@@ -29,7 +29,7 @@ ABSTRA aims to systematise our understanding of how LLMs process scientific abst
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/abstra.git
+git clone https://github.com/Adnan1729/abstra.git
 cd abstra
 
 # Create virtual environment (optional but recommended)
@@ -244,7 +244,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
