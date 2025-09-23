@@ -51,20 +51,6 @@ python -c "import nltk; nltk.download('punkt')"
 python scripts/run_abstra.py --input data/sample/sample_data_2.csv --output data/processed/
 ```
 
-### 2. Run with Your Data
-
-```bash
-# Place your CSV in data/raw/
-cp your_abstracts.csv data/raw/
-
-# Update config.yaml
-# paths:
-#   input_csv: "./data/raw/your_abstracts.csv"
-
-# Run pipeline
-python scripts/run_abstra.py
-```
-
 ## Project Structure
 
 ```
